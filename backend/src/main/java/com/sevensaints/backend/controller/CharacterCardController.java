@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/cards/characters")
+@RequestMapping("/api/cards/characters")
 @RequiredArgsConstructor
 public class CharacterCardController {
     
